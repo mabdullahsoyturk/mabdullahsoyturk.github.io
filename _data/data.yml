@@ -1,5 +1,5 @@
 sidebar:
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Muhammet Soyturk
@@ -17,20 +17,21 @@ education:
       university: Abdullah Gul University
       time: 2015 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - GPA of 3.6 (as of Jan 2020).
+          - Object oriented programming teaching assistant (Spring, 2018).
+          - Pattern recognition teaching assistant (Spring, 2019).
+    - degree: Academic English
+      university: University of St. Thomas
+      time: 2016
+      details: |
+          - GPA of 3.5
 experiences:
     - role: Undergraduate Research Intern
       time: Jun 2019 - Sep 2019
       company: Barcelona Supercomputing Center, Barcelona
       details: |
         - Made fault injection experiments to task-based parallel programs running undervolting.
-        - Implemented a framework that extends Gem5 simulator to inject faults to different levels of caches.
+        - Implemented a framework that extends gem5 simulator to inject faults to different levels of caches.
     - role: Undergraduate Researcher
       time: Feb 2019 - Jun 2019
       company: Hamburg University of Technology, Hamburg
@@ -55,7 +56,6 @@ projects:
       - title: Robot Box
         link: "https://github.com/mabdullahsoyturk/robot-box"
         tagline: "A ROS web interface to manage robots online."
-
       - title: Fault Injector
         link: "https://github.com/mabdullahsoyturk/gem5"
         tagline: "A framework that injects faults to different levels of caches."
