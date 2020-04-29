@@ -24,38 +24,34 @@ education:
       details: |
           - Completed level 111. 
 experiences:
-    - role: Undergraduate Research Intern
-      time: Feb 2020 - Present
+    - title: Bilkent University, Intern
+      time: Feb - May 2020
       company: Bilkent University, Ankara
       details: |
-        - Working on graph accelerators.
-    - role: Undergraduate Research Intern
-      time: Jun 2019 - Sep 2019
+        - Working on graph accelerators for graph analytics and big data applications.
+    - title: Barcelona Supercomputing Center, Intern
+      time: Jun - Sep 2019
       company: Barcelona Supercomputing Center, Barcelona
       details: |
-        - Made fault injection experiments to task-based parallel programs running undervolting.
-        - Implemented a framework that extends gem5 simulator to inject faults to different levels of caches.
-    - role: Undergraduate Researcher
-      time: Feb 2019 - Jun 2019
+        - Implemented a fault injection framework to introduce errors to parallel programs.
+        - Published an academic paper on fault injection of modern undervolted SRAMs (<a target="_blank" href="https://arxiv.org/pdf/1912.00154.pdf">Paper</a>).
+    - title: Senfonico, Web Developer
+      time: Jun - Nov 2018
+      company: Senfonico, Istanbul
+      details: |
+        - Developed several Wordpress plugins for Rönesans Holding’s website (<a target="_blank" href="https://ronesans.com">Rönesans</a>).
+        - Developed responsive interfaces for 30+ device sizes.
+    - title: Solid Electron, Intern
+      time: Jun - Jul 2017
       company: Hamburg University of Technology, Hamburg
       details: |
-        - Worked on reliable control of autonomous platoons.
-        - Implemented simulations for the performance evaluation of different medium access schemes.
-    - role: Web Developer
-      time: Aug 2018 - Nov 2018
-      company: Senfonico, Istanbul
-      details: |
-        - Developed a social networking service for people who have lost their loved ones.
-        - Led a web project for APEC Steel Building Systems.
-    - role: Software Engineering Intern
-      time: Jun 2018 - Aug 2018
-      company: Senfonico, Istanbul
-      details: |
-        - Played a key role in a small team worked on the website of Rönesans Holding.
-        - Created several plugins and modules for the company’s custom wordpress theme.
+        - Developed a REST api for the communication of server and client.
 projects:
     title: Projects
     assignments:
+      - title: Communicator
+        link: "https://github.com/mabdullahsoyturk/Communicator"
+        tagline: "An Android app to keep track house expenses."
       - title: Robot Box
         link: "https://github.com/mabdullahsoyturk/robot-box"
         tagline: "A ROS web interface to manage robots online."

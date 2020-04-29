@@ -1,7 +1,7 @@
 /* ======= Base ======= */
 body {
     font-family: 'Roboto', sans-serif;
-    color: $text-color-secondary;
+    color: $text-black;
     background: $smoky-white;
     font-size: 14px;
     padding: 30px;
@@ -149,6 +149,9 @@ p {
         .item {
             margin-bottom: 30px;
         }
+        .meta {
+            margin-bottom: 1em;
+        }
     }
     .upper-row {
         position: relative;
@@ -156,7 +159,7 @@ p {
         margin-bottom: 2px;
     }
     .job-title, .degree {
-        color: $text-color;
+        color: $text-black;
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
@@ -166,7 +169,7 @@ p {
         position: absolute;
         right: 0;
         top: 0;
-        color: $text-grey;
+        color: $text-black;
     }
     .company, .university {
         margin-bottom: 10px;
