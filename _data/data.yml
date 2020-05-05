@@ -27,23 +27,27 @@ experiences:
       company: Bilkent University, Ankara
       details: |
         - Working on graph accelerators for graph analytics and big data applications.
+      technologies: Python, C++, Celery, MongoDB
     - title: Barcelona Supercomputing Center, Intern
       time: Jun - Sep 2019
       company: Barcelona Supercomputing Center, Barcelona
       details: |
         - Implemented a fault injection framework to introduce errors to parallel programs.
         - Published an academic paper on fault injection of modern undervolted SRAMs (<a target="_blank" href="https://arxiv.org/pdf/1912.00154.pdf">Paper</a>).
+      technologies: C++, Python, gem5
     - title: Senfonico, Web Developer
       time: Jun - Nov 2018
       company: Senfonico, Istanbul
       details: |
         - Developed several Wordpress plugins for Rönesans Holding’s website (<a target="_blank" href="https://ronesans.com">Rönesans</a>).
         - Developed responsive interfaces for 30+ device sizes.
+      technologies: PHP, Angular, JQuery
     - title: Solid Electron, Intern
       time: Jun - Jul 2017
       company: Hamburg University of Technology, Hamburg
       details: |
         - Developed a REST api for the communication of server and client.
+      technologies: Node.js, MongoDB, Java
 projects:
     title: Projects
     assignments:
