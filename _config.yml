@@ -7,3 +7,4 @@ sass:
 port: 4000
 host: 0.0.0.0
 safe: false
+google_analytics: UA-165709823-1
