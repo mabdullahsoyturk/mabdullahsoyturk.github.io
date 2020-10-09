@@ -28,6 +28,12 @@ education:
       details: |
           - Completed level 111. 
 experiences:
+    - title: Koç University, Graduate Teaching Assistant
+      time: Sep 2020 - Present
+      company: Koç University, Istanbul
+      details: |
+        - COMP 302: Software Engineering (Fall, 2020)
+      technologies: 
     - title: Bilkent University, Intern
       time: Feb - May 2020
       company: Bilkent University, Ankara
