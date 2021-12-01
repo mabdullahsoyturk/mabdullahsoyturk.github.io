@@ -32,8 +32,10 @@ experiences:
       time: Sep 2020 - Present
       company: Koç University, Istanbul
       details: |
-        - COMP 302: Software Engineering (Fall, 2020)
+        - Developed a tool to monitor collective communication primitives (<a target="_blank" href="https://arxiv.org/abs/2110.10401">Paper</a>, <a target="_blank" href="https://github.com/ParCoreLab/ComScribe">Code</a>)
+        - COMP 302: Software Engineering (Fall, 2021)
         - COMP 132: Advanced Programming (Spring, 2021)
+        - COMP 302: Software Engineering (Fall, 2020)
       technologies: 
     - title: Bilkent University, Intern
       time: Feb - May 2020
