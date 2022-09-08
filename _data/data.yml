@@ -12,9 +12,10 @@ sidebar:
     resume: Resume
 
 education:
-    - title: PhD, Computer Science, Koç University
-      time: 2020 - Present
+    - title: MSc, Computer Science, Koç University
+      time: 2020 - 2022
       details: |
+          - GPA: 3.5/4.00
           - Designing novel programming models for beyond Moore architectures. 
           - Under supervision of [Didem Unat](http://home.ku.edu.tr/~dunat/)
     - title: Undergrad, Computer Engineering, Abdullah Gül University
@@ -28,26 +29,33 @@ education:
       details: |
           - Completed level 111. 
 experiences:
-    - title: Koç University, Graduate Teaching Assistant
-      time: Sep 2020 - Present
+    - title: RIKEN Center, Intern
+      time: June - Dec 2022
+      company: Kobe, Japan
+      details: |
+        - Working on an adaptive pipeline parallelism training scheme for large-scale transformer models.
+        - A paper on adaptive pipeline parallelism load balancer for large-scale transformer models is soon to be published.
+      technologies: Python, PyTorch, C++
+    - title: Koç University, Research and Teaching Assistant
+      time: Sep 2020 - Dec 2022
       company: Koç University, Istanbul
       details: |
         - Developed a tool to monitor collective communication primitives (<a target="_blank" href="https://arxiv.org/abs/2110.10401">Paper</a>, <a target="_blank" href="https://github.com/ParCoreLab/ComScribe">Code</a>)
-        - COMP 302: Software Engineering (Fall, 2021)
-        - COMP 132: Advanced Programming (Spring, 2021)
-        - COMP 302: Software Engineering (Fall, 2020)
-      technologies: 
+        - COMP 302: Software Engineering (Fall 2020, Fall 2021)
+        - COMP 132: Advanced Programming (Spring 2021, Spring 2022)
+      technologies: CUDA, C++, Python, NCCL, MPI
     - title: Bilkent University, Intern
       time: Feb - May 2020
       company: Bilkent University, Ankara
       details: |
-        - Working on graph accelerators for graph analytics and big data applications.
+        - Worked on graph accelerator design for graph analytics and big data applications.
       technologies: Python, C++, Celery, MongoDB
     - title: Barcelona Supercomputing Center, Intern
       time: Jun - Sep 2019
       company: Barcelona Supercomputing Center, Barcelona
       details: |
-        - Implemented a fault injection framework to introduce errors to parallel programs.
+        - Implemented a framework that extends gem5 simulator to inject faults to different levels of caches.
+        - Made fault injection experiments to task-based parallel programs running on undervolted architectures.
         - Published an academic paper on fault injection of modern undervolted SRAMs (<a target="_blank" href="https://arxiv.org/pdf/1912.00154.pdf">Paper</a>).
       technologies: C++, Python, gem5
     - title: Senfonico, Web Developer
@@ -59,16 +67,16 @@ experiences:
       technologies: PHP, Angular, JQuery
     - title: Solid Electron, Intern
       time: Jun - Jul 2017
-      company: Hamburg University of Technology, Hamburg
+      company: 
       details: |
         - Developed a REST api for the communication of server and client.
       technologies: Node.js, MongoDB, Java
 projects:
     title: Projects
     assignments:
-      - title: Communicator
-        link: "https://github.com/mabdullahsoyturk/Communicator"
-        tagline: "An Android app to keep track house expenses."
+      - title: ComScribe
+        link: "https://github.com/ParCoreLab/ComScribe"
+        tagline: "A tool to identify communication among all GPU-GPU and CPU-GPU pairs in a single-node multi-GPU system."
       - title: Robot Box
         link: "https://github.com/mabdullahsoyturk/robot-box"
         tagline: "A ROS web interface to manage robots online."
