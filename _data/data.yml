@@ -29,8 +29,14 @@ education:
       details: |
           - Completed level 111. 
 experiences:
+    - title: GAMS, Software Engineer
+      time: Feb 2023 - Present
+      company: Braunschweig, Germany
+      details: |
+        - Working on a project to better express GAMS in Python.
+      technologies: Python, GAMS
     - title: RIKEN Center, Intern
-      time: June - Dec 2022
+      time: June 2022 - Feb 2023
       company: Kobe, Japan
       details: |
         - Working on an adaptive pipeline parallelism training scheme for large-scale transformer models.
