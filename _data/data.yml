@@ -6,7 +6,7 @@ sidebar:
     avatar: profile.png
 
     # Sidebar links
-    email: msoyturk20@ku.edu.tr
+    email: msoyturk@gams.com
     linkedin: muhammetsoyturk
     github: mabdullahsoyturk
     resume: Resume
@@ -16,8 +16,8 @@ education:
       time: 2020 - 2022
       details: |
           - GPA: 3.5/4.00
-          - Designing novel programming models for beyond Moore architectures. 
-          - Under supervision of [Didem Unat](http://home.ku.edu.tr/~dunat/)
+          - Software Engineering teaching assistant (Spring 2022, Spring, 2021) 
+          - Advanced Programming teaching assistant (Fall 2022, Fall 2021)
     - title: Undergrad, Computer Engineering, Abdullah Gül University
       time: 2015 - 2020
       details: |
@@ -33,13 +33,14 @@ experiences:
       time: Feb 2023 - Present
       company: Braunschweig, Germany
       details: |
-        - Working on a project to better express GAMS in Python.
+        - Main developer and maintainer of an algebraic modeling language: <a target="_blank" href="https://github.com/GAMS-dev/gamspy">GAMSPy</a>
+        - Contributed to several other products such as <a target="_blank" href="https://www.gams.com/latest/docs/API_PY_GAMSTRANSFER.html">Transfer</a> and <a href="https://www.gams.com/latest/docs/UG_GAMSCONNECT.html">Connect</a>.
       technologies: Python, GAMS
     - title: RIKEN Center, Intern
       time: June 2022 - Feb 2023
       company: Kobe, Japan
       details: |
-        - Working on an adaptive pipeline parallelism training scheme for large-scale transformer models.
+        - Developed an adaptive pipeline parallelism training scheme for large-scale transformer models.
         - A paper on adaptive pipeline parallelism load balancer for large-scale transformer models is soon to be published.
       technologies: Python, PyTorch, C++
     - title: Koç University, Research and Teaching Assistant
