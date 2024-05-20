@@ -41,7 +41,7 @@ experiences:
       company: Kobe, Japan
       details: |
         - Developed an adaptive pipeline parallelism training scheme for large-scale transformer models.
-        - A paper on adaptive pipeline parallelism load balancer for large-scale transformer models is soon to be published.
+        - Published a <a target="_blank" href="https://openreview.net/pdf?id=ic1Z7Qe9xH">paper</a> on elastic load balancing for dynamic LLMs.
       technologies: Python, PyTorch, C++
     - title: Koç University, Research and Teaching Assistant
       time: Sep 2020 - Dec 2022
@@ -81,12 +81,12 @@ experiences:
 projects:
     title: Projects
     assignments:
+      - title: GAMSPy
+        link: "https://github.com/GAMS-dev/gamspy"
+        tagline: "Algebraic modeling interface of GAMS in Python."
       - title: ComScribe
         link: "https://github.com/ParCoreLab/ComScribe"
         tagline: "A tool to identify communication among all GPU-GPU and CPU-GPU pairs in a single-node multi-GPU system."
       - title: Robot Box
         link: "https://github.com/mabdullahsoyturk/robot-box"
         tagline: "A ROS web interface to manage robots online."
-      - title: Fault Injector
-        link: "https://github.com/mabdullahsoyturk/gem5"
-        tagline: "A framework that injects faults to different levels of caches."
