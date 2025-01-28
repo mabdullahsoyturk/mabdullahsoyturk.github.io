@@ -1,0 +1,92 @@
+sidebar:
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Muhammet Soyturk
+    avatar: profile.png
+
+    # Sidebar links
+    email: msoyturk@gams.com
+    linkedin: muhammetsoyturk
+    github: mabdullahsoyturk
+    resume: Resume
+
+education:
+    - title: MSc, Computer Science, Koç University
+      time: 2020 - 2022
+      details: |
+          - GPA: 3.5/4.00
+          - Software Engineering teaching assistant (Spring 2022, Spring, 2021) 
+          - Advanced Programming teaching assistant (Fall 2022, Fall 2021)
+    - title: Undergrad, Computer Engineering, Abdullah Gül University
+      time: 2015 - 2020
+      details: |
+          - GPA: 3.65/4.00
+          - Object oriented programming teaching assistant (Spring, 2018).
+          - Pattern recognition teaching assistant (Spring, 2019).
+    - title: Academic English, University of St. Thomas, Minnesota
+      time: 2016
+      details: |
+          - Completed level 111. 
+experiences:
+    - title: GAMS, Software Engineer
+      time: Feb 2023 - Present
+      company: Braunschweig, Germany
+      details: |
+        - Main developer and maintainer of an algebraic modeling language: <a target="_blank" href="https://github.com/GAMS-dev/gamspy">GAMSPy</a>
+        - Contributed to several other products such as <a target="_blank" href="https://www.gams.com/latest/docs/API_PY_GAMSTRANSFER.html">Transfer</a> and <a href="https://www.gams.com/latest/docs/UG_GAMSCONNECT.html">Connect</a>.
+      technologies: Python, GAMS
+    - title: RIKEN Center, Intern
+      time: June 2022 - Feb 2023
+      company: Kobe, Japan
+      details: |
+        - Developed an adaptive pipeline parallelism training scheme for large-scale transformer models.
+        - Published a <a target="_blank" href="https://openreview.net/pdf?id=ic1Z7Qe9xH">paper</a> on elastic load balancing for dynamic LLMs.
+      technologies: Python, PyTorch, C++
+    - title: Koç University, Research and Teaching Assistant
+      time: Sep 2020 - Dec 2022
+      company: Koç University, Istanbul
+      details: |
+        - Developed a tool to monitor collective communication primitives (<a target="_blank" href="https://arxiv.org/abs/2110.10401">Paper</a>, <a target="_blank" href="https://github.com/ParCoreLab/ComScribe">Code</a>)
+        - COMP 302: Software Engineering (Fall 2020, Fall 2021)
+        - COMP 132: Advanced Programming (Spring 2021, Spring 2022)
+      technologies: CUDA, C++, Python, NCCL, MPI
+    - title: Bilkent University, Intern
+      time: Feb - May 2020
+      company: Bilkent University, Ankara
+      details: |
+        - Worked on graph accelerator design for graph analytics and big data applications.
+      technologies: Python, C++, Celery, MongoDB
+    - title: Barcelona Supercomputing Center, Intern
+      time: Jun - Sep 2019
+      company: Barcelona Supercomputing Center, Barcelona
+      details: |
+        - Implemented a framework that extends gem5 simulator to inject faults to different levels of caches.
+        - Made fault injection experiments to task-based parallel programs running on undervolted architectures.
+        - Published an academic paper on fault injection of modern undervolted SRAMs (<a target="_blank" href="https://arxiv.org/pdf/1912.00154.pdf">Paper</a>).
+      technologies: C++, Python, gem5
+    - title: Senfonico, Web Developer
+      time: Jun - Nov 2018
+      company: Senfonico, Istanbul
+      details: |
+        - Developed several Wordpress plugins for Rönesans Holding’s website (<a target="_blank" href="https://ronesans.com">Rönesans</a>).
+        - Developed responsive interfaces for 30+ device sizes.
+      technologies: PHP, Angular, JQuery
+    - title: Solid Electron, Intern
+      time: Jun - Jul 2017
+      company: 
+      details: |
+        - Developed a REST api for the communication of server and client.
+      technologies: Node.js, MongoDB, Java
+projects:
+    title: Projects
+    assignments:
+      - title: GAMSPy
+        link: "https://github.com/GAMS-dev/gamspy"
+        tagline: "Algebraic modeling interface of GAMS in Python."
+      - title: ComScribe
+        link: "https://github.com/ParCoreLab/ComScribe"
+        tagline: "A tool to identify communication among all GPU-GPU and CPU-GPU pairs in a single-node multi-GPU system."
+      - title: Robot Box
+        link: "https://github.com/mabdullahsoyturk/robot-box"
+        tagline: "A ROS web interface to manage robots online."

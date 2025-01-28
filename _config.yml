@@ -1,0 +1,9 @@
+title: Personal Website
+url: 'http://mabdullahsoyturk.github.io'
+description: Personal Website of Muhammet Abdullah Soyturk
+theme_skin: ceramic # blue turquoise green berry orange ceramic
+sass:
+  sass_dir: _sass
+port: 4000
+host: 0.0.0.0
+safe: false
